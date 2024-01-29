@@ -1,0 +1,199 @@
+@media screen and (max-width: 768px){
+  body{
+    width: 100%;
+  }
+  
+}
+
+
+
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/888.jpeg);
+  background-size: cover;
+  text-align: center;
+  /* font-size: 14px; */
+
+
+  background-repeat: no-repeat;
+}
+.container {
+  text-align: center;
+}
+
+div.container h1 {
+  font-family: "Croissant One", serif;
+  margin: 75px 0 45px 0;
+  display: block;
+
+  font-size: 55px;
+  color: white;
+}
+h1.shadow {
+  text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.9);
+}
+
+div.myProject img {
+  width: 500px;
+  height: 400px;
+}
+
+div.header-button button {
+  width: 150px;
+  height: 38.4px;
+  margin: 15px 10px 55px 0;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgb(173, 128, 68);
+  border: none;
+
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3 ease;
+  margin: 0 15px 5px 15px;
+
+  /* animation: spin 5s linear 1; */
+}
+
+div.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 5500;
+}
+div.sticky button a {
+  text-decoration: none;
+  color: rgb(193, 192, 192);
+}
+
+div.header-button button:hover {
+  background-color: rgb(157, 73, 115);
+  transform: scale(1.2);
+  text-decoration: none;
+}
+
+div.header-button h2 {
+  width: 1595px;
+  height: 500px;
+  margin: 120px 0 0 2px;
+  font-weight: 800;
+  font-size: 50px;
+  font-family: "Croissant One", serif;
+  text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.9);
+  color: aliceblue;
+}
+/* @keyframes spin {
+
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg);} */
+
+div.myProject h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-family: "Croissant One", serif;
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+div.myProject img {
+  border-radius: 25px;
+  margin: 0 20px 20px 20px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  transform: scale(1);
+  transition: tranform 0.4s ease;
+}
+div.myProject img:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+div.contactMe h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Croissant One", serif;
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+div.form h3 {
+  margin-bottom: 3px;
+  font-size: 20px;
+  font-family: "Croissant One", serif;
+  color: aliceblue;
+}
+
+div.form {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+}
+
+div.form form {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+div.form input {
+  border: 6px solid rgb(157, 73, 115);
+
+  padding: 5px;
+  border-radius: 10px;
+  height: 55px;
+}
+div.form textarea {
+  border: 6px solid rgb(157, 73, 115);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+div.form input:focus {
+  border-color: red;
+}
+div.form textarea:focus {
+  border-color: red;
+}
+div.form button {
+  height: 55px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Croissant One", serif;
+  border: 3px solid black;
+  background-color: bisque;
+  justify-content: center;
+  background-color: rgb(157, 73, 115);
+}
+div.form button:hover{
+  background-color: rgb(173, 128, 68);
+
+
+}
+
+div.but a {
+  width: 65px;
+  height: 65px;
+  font-size: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 3px solid black;
+  background-color: rgb(173, 128, 68);
+ 
+}
+div.but a:hover {
+  background-color: rgb(157, 73, 115);
+}
+
+div.link img {
+  width: 45px;
+  margin: 23px;
+}
